@@ -7,6 +7,7 @@ int main(int argc, char ** argv)
 {
 
     argc > 1 ? ROT13(argv[1]) : ROT13("Hello World");
+    printf("\n");
     
     return 0;
 }
